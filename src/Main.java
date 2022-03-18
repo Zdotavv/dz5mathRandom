@@ -4,7 +4,7 @@ public class Main {
         int[] array = new int[10];
         for (int i = 0; i < array.length; i++) {
             array[i] =((int) (Math.random()*10)+1);
-//            System.out.println(array[i]);
+            System.out.println(array[i]);
         }
         int max = array[0];
         int min = array[0];
