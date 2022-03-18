@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-
+        System.out.println("Рандомные числа");
         int[] array = new int[10];
         for (int i = 0; i < array.length; i++) {
             array[i] =((int) (Math.random()*10)+1);
