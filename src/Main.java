@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Рандомные числа");
-        int[] array = new int[10];
+        int[] array = new int[20];
         for (int i = 0; i < array.length; i++) {
-            array[i] =((int) (Math.random()*10)+1);
+            array[i] =((int) (Math.random()*20)+1);
             System.out.println(array[i]);
         }
         int max = array[0];
