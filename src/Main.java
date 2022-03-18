@@ -14,7 +14,7 @@ public class Main {
             if(min > array[i])
                 min = array[i];
         }
-        System.out.println("Максимальные и минимальные числа");
+        System.out.println("Максимальные и минимальные числа: ");
         System.out.println("max = " + max);
         System.out.println("min = " + min);
 
